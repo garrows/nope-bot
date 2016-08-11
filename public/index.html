@@ -1,0 +1,64 @@
+<!--
+
+Copyright 2016-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the license found in the
+LICENSE file in the root directory of this source tree.
+
+-->
+<html>
+  <head>
+    <title>Nope bot</title>
+  </head>
+  <body>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId: '1206406276058171',
+          xfbml: true,
+          version: 'v2.6'
+        });
+    };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <h1>Nope bot</h1>
+
+    <div>
+
+      <div class="fb-messengermessageus"
+        messenger_app_id='1206406276058171'
+        page_id='695921547229095'
+        color="blue"
+        size="standard">
+      </div>
+    </div>
+
+    <!--
+    <div>
+      <p>Like our Facebook page for further updates.</p>
+
+      <div class="fb-send-to-messenger"
+        messenger_app_id='1206406276058171'
+        page_id='695921547229095'
+        data-ref="PASS_THROUGH_PARAM"
+        color="blue"
+        size="standard">
+      </div>
+
+  </div>-->
+
+  <p>
+      <a href="privacy.html">Privacy Policy</a> <a href="terms.html">Terms</a>
+  </p>
+
+  </body>
+</html>

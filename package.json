@@ -1,0 +1,28 @@
+{
+  "name": "nope-bot",
+  "version": "1.0.0",
+  "description": "Just replies with nope",
+  "main": "app.js",
+  "scripts": {
+    "now-start": "source ./environment_variables && node app.js",
+    "start": "node app.js",
+    "lint": "jshint --exclude node_modules .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://source.developers.google.com/p/messenger-get-started/r/default"
+  },
+  "author": "Glen Arrowsmith",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.1",
+    "body-parser": "^1.15.0",
+    "ejs": "^2.4.2",
+    "express": "^4.13.4",
+    "request": "^2.74.0"
+  },
+  "engines": {
+    "node": "~4.1.2"
+  }
+}
